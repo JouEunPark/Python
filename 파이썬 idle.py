@@ -1,8 +1,8 @@
-a='자퇴'
-b=3000
-c=0
-while c<b:
-    print(a)
-    c=c+1
-
-
+a,b=input().split()
+a=int(a)
+b=int(b)
+if(a%10==0):
+    c=b+int((90-a)/5)
+else:
+    c=b+int((90-a)/5)+1
+print(c)
